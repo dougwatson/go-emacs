@@ -23,7 +23,7 @@ GNU Emacs 26.1
 
 
 Put this into ~/.emacs.d/.emacs and save it (From melpa instructions - http://ergoemacs.org/emacs/emacs_package_system.html):
-
+```
 ;; load emacs 24's package system. Add MELPA repository.
 (when (>= emacs-major-version 24)
   (require 'package)
@@ -31,7 +31,7 @@ Put this into ~/.emacs.d/.emacs and save it (From melpa instructions - http://er
    'package-archives
     '("melpa" . "https://stable.melpa.org/packages/") ; many packages won't show if using stable
    t))
-
+```
 Now when you start emacs you will have access to melpa via M-x install-package.
 Run M-x package-list-packages
 Then you might need to wait before go-mode will show up (search for it with ctrl-s)
