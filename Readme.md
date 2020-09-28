@@ -1,3 +1,9 @@
+Update:
+Now I am using VS Visual Studio Code on Mac https://code.visualstudio.com/docs/languages/go
+https://blog.golang.org/vscode-go
+
+(I still use emacs for GO but only when I am on the command line and doing quick things) 
+
 Macs come with a version of emacs that is way too old (v22) and it won't work with the latest golang exiting modes.
 emacs -version
 GNU Emacs 22.1.1
